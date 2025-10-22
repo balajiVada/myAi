@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global styling for scrollbar to match dark theme (optional but enhances clone) */
+.chat-scrollbar::-webkit-scrollbar {
+    width: 8px;
+}
+.chat-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #444654;
+    border-radius: 4px;
+}
+.chat-scrollbar::-webkit-scrollbar-track {
+    background-color: #202123;
+}
+
+/* Target the textarea for auto-resizing */
+.auto-grow-textarea {
+  resize: none;
+  overflow-y: hidden;
+}
+
